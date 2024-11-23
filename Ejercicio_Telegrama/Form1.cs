@@ -31,9 +31,15 @@ namespace Ejercicio_Telegrama
 
             // telegrama urgente?
 
-            if (chkUrgente.Checked)
+            if (radUrgente.Checked)
             {
                 tipoTelegrama = 'u';
+            }
+
+
+            if (radOrdinario.Checked)
+            {
+                tipoTelegrama = 'o';
             }
             //Obtengo el número de palabras que forma el telegrama 
 
